@@ -11,7 +11,7 @@ def petitpotam(demonID, *param):
     target = ''
     capture_server = ''
 
-    if num_params > 3 or num_params < 1:
+    if num_params != 2:
         demon.ConsoleWrite( demon.CONSOLE_ERROR, 'Only accepts two parameters [Capture Server, Target]' )
         return False
 
